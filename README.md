@@ -1,4 +1,3 @@
 # onpu
 
-### OOP, Database, AP
-**Labs, course work**
+**OOP, Database, AP**
