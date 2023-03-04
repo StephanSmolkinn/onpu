@@ -162,7 +162,7 @@ void lab4() {
     switch(y) {
 
         case 1:
-            printf("you are subject to conscription\or you can to serve under a contract\n");
+            printf("you are subject to conscription or you can to serve under a contract\n");
             break;
 
         case 2:
