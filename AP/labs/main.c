@@ -8,6 +8,7 @@ int main()
     printf("1 - lab1\n");
     printf("2 - lab2\n");
     printf("3 - lab3\n");
+    printf("4 - lab4\n");
 
     int key;
     printf("Choose function of labs -> ");
@@ -25,6 +26,10 @@ int main()
 
         case 3:
             lab3();
+            break;
+
+        case 4:
+            lab4();
             break;
 
         default:
@@ -142,3 +147,39 @@ void lab3() {
     }
 
 }
+
+void lab4() {
+
+    int x, y;
+    printf("Age: \n");
+    scanf("%d",&x);
+
+    if (x >= 20 && x <= 28)
+        y = 1;
+    else if (x >= 29 && x <= 59)
+        y = 2;
+
+    switch(y) {
+
+        case 1:
+            printf("you are subject to conscription\or you can to serve under a contract\n");
+            break;
+
+        case 2:
+            printf("you can serve under contract\n");
+            break;
+
+        default:
+            if ((x > 0 && x < 20) || (x > 59 && x < 101))
+                printf("you are not of draft age\n");
+            else
+                printf("error\n");
+
+    }
+
+}
+
+
+
+
+
